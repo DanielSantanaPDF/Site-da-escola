@@ -1,3 +1,7 @@
+html{
+scroll-behavior: smooth;
+
+}
 .b{ 
 display: flex;
 color: aliceblue;  
@@ -21,7 +25,9 @@ color: aliceblue;
   display: flex;
   max-width: 400px;
   max-height: 800px;
- }   
+ }
+ 
+ 
 #bloco{
 
   width: -60% ;
@@ -35,7 +41,6 @@ scrollbar-width: none;
     }
     
     body { 
-      overflow-x: hidden;
       display: block;
       font-family: Arial;
       padding: 10px;
@@ -103,7 +108,10 @@ scrollbar-width: none;
       padding-left: 20px;
       height: 1040px;
     }
-    
+    img:hover{
+      scale: 102%;
+
+    }
 
     .fakeimg {
     
@@ -250,14 +258,15 @@ border-radius: 2%;
   }
    
    .not{
+    
     max-width: 100%;
    margin-right: 2%;
     background-color:transparent ;
     border: 2px rgb(40, 40, 123) inset ;
     border-radius: 10%;
      align-items:center;
-    padding-left: 20%;
-    padding-right: 10%;
+    padding-left: 5%;
+    padding-right: 5%;
     display: flex;
     
    }
