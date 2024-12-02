@@ -41,6 +41,7 @@ scrollbar-width: none;
     }
     
     body { 
+      overflow-x:none
       display: block;
       font-family: Arial;
       padding: 10px;
