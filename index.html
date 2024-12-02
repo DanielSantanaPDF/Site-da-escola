@@ -2,8 +2,7 @@
     <head>
 <html lang="pt-br">
     <meta charset="UTF-8">
-    <meta name="viewport" content="widht=device-width, initial-scale=1.0" />
-
+    <meta name="viewport">
         <title>CEM 01</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico">
 
@@ -28,7 +27,7 @@
   
   <div class="topnav">
     <a href="#">Pagina inicial</a>
-    <a href="#puxar">Noticias</a>
+    <a href="#" onclick="mudar()">Portal de noticias</a>
     <a href="#" style="float:right" onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Fale conosco</a>
     
     <div id="id01" class="modal">
@@ -71,6 +70,7 @@
       
         <div id="t1">
         
+        <h5></h5>
         
         <p></p>
         <p></p>
@@ -123,12 +123,12 @@
   <img id="emancipa" src="emancipaHd.jpg">
   </div>
   
-  <div id="puxar"></div>
+  
   <div class="card2">
-     <h1 id="texto1" >Noticias</h1>  
+     <h1 id="texto1">Notícias</h1>  
     <div class="conter" style="background-position:100%;border: black;border-radius: 10%; ">
     
-      
+     
      
   
   
@@ -145,13 +145,13 @@
     
     -->
   
-    <div class="not" >
+    <div class="not" onscroll="prolado()" >
     
       <p class="textobom" >Inep divulga gabarito oficial e caderno do ENEM 2024.<br><a class="b" href="https://www.gov.br/inep/pt-br/areas-de-atuacao/avaliacao-e-exames-educacionais/enem/provas-e-gabaritos" target="_blank">Clique e veja</a> </p>
       <img src="aviso2.jpg" style="width: 600px; height: 400px;" >
   
     </div>
-  <div class="not" >
+  <div  class="not" >
     
     <p class="textobom">Pessoal, vamos lá! Estamos organizando um evento na escola, com uma exposição dos desenhos dos alunos. Pode ser qualquer tipo de trabalho, como desenhos, xilogravura ou outras criações artísticas. Estamos coletando os materiais de vocês na supervisão falta poucos dias para colher todos os materiais. Os participantes vão concorrer a kits de materiais de pintura, e os melhores trabalhos poderão ser enviados para a Secretaria de Educação! Em caso de dúvidas, procurem o Grêmio ou o professor Márcilio ou a equipe está organizando.</p>
     <video src="eliasvideo.mp4" style="width: 600px; height: 400px;" controls>
@@ -171,7 +171,7 @@
   
   </div>
   
-  <div class="not" >
+  <div class="not">
     
     <p class="textobom" >Em conformidade com o disposto nos artigos 42 e 79 da Lei
       Complementar do DF nº 1, de 09/05/1994, e nos artigos 239 e 241 do Regimento
@@ -220,14 +220,14 @@
       <img src="True.png" style="width: 600px; height: 400px; border: #f5f5f5 2px solid; border-radius: 2%;">
   
   </div>
-  
+  </div>
   
   <!-- Nao apagar apartir daqui -->
     </div>
   </div>
   
   
-  <div style="background-color: #00c3ff; display: block; height: 12px;">
+  <div  style="background-color: #00c3ff; display: block; height: 12px;" id="wpp">
   
   </div>
   <div class="footer">
@@ -242,5 +242,6 @@
     <a href="https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwjh9u-sq-GJAxUNrpUCHYE1JEwQFnoECAwQAQ&url=https%3A%2F%2Fwww.gov.br%2Fmec%2Fpt-br&usg=AOvVaw1RZ-rniOzlsKXmDzfPDzd-&opi=89978449" target="_blank"><img src="MECAssinatura.png" style="width: 300px;height: 163px;"></a>
   </div>
   </div>
+<div id="wpp"></div>
       </body>    
   </html>
