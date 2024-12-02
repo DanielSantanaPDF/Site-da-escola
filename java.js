@@ -19,8 +19,15 @@ setInterval(scrollRight, 500);
 
 
 
-// When the user clicks anywhere outside of the modal, close it
+
 function fechar(){ 
     var modal = document.getElementById('id01');
         modal.style.display = "none";
 }
+
+
+            function mudar(){
+                window.scrollTo(0,100000);
+            }
+
+
