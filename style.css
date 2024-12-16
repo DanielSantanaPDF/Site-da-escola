@@ -1,6 +1,7 @@
 html{
 scroll-behavior: smooth;
 
+
 }
 .b{ 
 display: flex;
@@ -41,7 +42,7 @@ scrollbar-width: none;
     }
     
     body { 
-      overflow-x:none
+      overflow-x: hidden;
       display: block;
       font-family: Arial;
       padding: 10px;
